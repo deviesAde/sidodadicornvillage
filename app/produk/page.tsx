@@ -7,7 +7,7 @@ export default function ProdukPage() {
   return (
     <main className="min-h-screen bg-gray-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Toko Online jagungKU</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Produk Karya Warga Sidodadi</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Eksplorasi dan beli berbagai produk olahan jagung dan hasil zero-waste agriculture langsung dari Desa Sidodadi.
         </p>

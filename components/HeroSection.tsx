@@ -43,7 +43,7 @@ export default function HeroSection() {
           className="mb-6 inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm font-semibold tracking-wide"
         >
           <span className="w-2 h-2 rounded-full bg-yellow-400 animate-pulse" />
-          Selamat Datang di Pusat Ecopreneurship Desa
+          Desa Sidodadi, Jember
         </motion.div>
 
         <motion.h1
@@ -59,9 +59,9 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-xl md:text-3xl text-lime-100 mb-4 font-light italic"
+          className="text-xl md:text-3xl text-lime-100 mb-4 font-light"
         >
-          "Mengubah Potensi Lokal Menjadi Inovasi Global"
+          Pusat Olahan & Inovasi Jagung
         </motion.p>
         
         <motion.p
@@ -70,7 +70,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-base md:text-lg text-gray-200 mb-10 max-w-2xl leading-relaxed"
         >
-          Saksikan bagaimana sebuah dedikasi mampu menyulap sisa-sisa hasil panen jagung menjadi jajaran produk ekologis bernilai tinggi. Bersama warga Sidodadi, kami mempelopori ekonomi sirkular untuk masa depan yang lebih hijau.
+          Platform digital Desa Sidodadi untuk mengenalkan dan memasarkan produk olahan jagung dan limbah pertanian berbasis ecopreneurship.
         </motion.p>
 
         <motion.div
@@ -83,7 +83,7 @@ export default function HeroSection() {
             href="#produk"
             className="group px-8 py-4 bg-lime-600 hover:bg-lime-700 text-white rounded-full font-bold transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-lime-900/50"
           >
-            Temukan Inovasi Kami
+            Lihat Produk Kami
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </motion.div>

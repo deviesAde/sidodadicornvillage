@@ -20,10 +20,10 @@ export default function TentangPage() {
             Tentang Kami
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight">
-            Mengenal SidodadiCorn<span className="text-lime-600">Village</span>
+            Desa Sidodadi, <span className="text-lime-600">Jember</span>
           </h1>
           <p className="text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            Sebuah perjalanan transformasi dari potensi lokal pedesaan menjadi pelopor inovasi ekologis dan pemberdayaan masyarakat.
+            Platform pengenalan potensi desa berbasis pengolahan jagung dan pemanfaatan limbah pertanian (ecopreneurship).
           </p>
         </motion.div>
 

@@ -7,18 +7,18 @@ export default function AboutSection() {
   const features = [
     {
       icon: <Sprout className="w-8 h-8 text-lime-600" />,
-      title: "Kekayaan Agrikultur Terpendam",
-      description: "Desa Sidodadi memiliki potensi alam luar biasa, menghasilkan panen jagung lokal dengan kualitas premium yang menjadi urat nadi perekonomian desa."
+      title: "Potensi Pertanian",
+      description: "Desa Sidodadi memiliki lahan pertanian subur yang menjadikannya sebagai salah satu daerah penghasil jagung lokal."
     },
     {
       icon: <Recycle className="w-8 h-8 text-lime-600" />,
       title: "Zero Waste Agriculture",
-      description: "Tak ada yang terbuang percuma. Kami memastikan setiap helaian klobot hingga kerasnya bonggol jagung memiliki nilai guna dan putaran ekonomi tanpa menyisakan limbah."
+      description: "Kami menerapkan sistem pertanian minim limbah dengan memanfaatkan seluruh bagian tanaman jagung."
     },
     {
       icon: <Leaf className="w-8 h-8 text-lime-600" />,
-      title: "Semangat Ecopreneurship",
-      description: "Lebih dari sekadar bertani, warga Sidodadi adalah wirausahawan ramah lingkungan yang memadukan kreativitas dengan kepedulian terhadap kelestarian alam sekitar."
+      title: "Pemberdayaan Warga",
+      description: "Mengedukasi masyarakat desa untuk mengolah sisa panen jagung menjadi produk siap jual."
     }
   ];
 
@@ -33,7 +33,7 @@ export default function AboutSection() {
             transition={{ duration: 0.5 }}
             className="text-sm font-bold text-amber-600 tracking-widest uppercase mb-3"
           >
-            Visi & Misi Kami
+            Tentang Kami
           </motion.h2>
           <motion.h3
             initial={{ opacity: 0, y: 20 }}
@@ -42,7 +42,7 @@ export default function AboutSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight"
           >
-            Membentuk Masa Depan dari Sisa Panen
+            SidodadiCornVillage
           </motion.h3>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -51,7 +51,7 @@ export default function AboutSection() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg md:text-xl text-gray-600 leading-relaxed"
           >
-            Melalui gagasan <strong className="text-lime-700 font-semibold">SidodadiCornVillage</strong>, kami mendobrak batas agrikultur tradisional. Kami membuktikan bahwa dengan inovasi yang tepat, keberlanjutan ekosistem dan kesejahteraan ekonomi bisa berjalan seiringan.
+            Kami mengelola limbah panen jagung menjadi berbagai produk bernilai ekonomi untuk mendukung praktik pertanian berkelanjutan di Desa Sidodadi.
           </motion.p>
         </div>
 

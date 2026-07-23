@@ -19,7 +19,7 @@ export default function ProductSection() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-lime-50 border border-lime-100 text-lime-700 text-sm font-bold tracking-wide uppercase mb-6"
             >
               <Sparkles className="w-4 h-4" />
-              Karya Warga Sidodadi
+              Produk Lokal
             </motion.div>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -27,7 +27,7 @@ export default function ProductSection() {
               viewport={{ once: true }}
               className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 tracking-tight"
             >
-              Koleksi Inovasi <span className="text-lime-600">Terbaik</span>
+              Katalog <span className="text-lime-600">Produk</span>
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -36,7 +36,7 @@ export default function ProductSection() {
               transition={{ delay: 0.1 }}
               className="text-lg text-gray-600 leading-relaxed"
             >
-              Dari kebaikan alam untuk kehidupan yang lebih baik. Temukan jajaran produk ekologis unggulan kami yang berbahan dasar jagung dan olahan limbahnya.
+              Produk berbahan dasar jagung dan olahan limbah pertanian hasil karya warga Desa Sidodadi.
             </motion.p>
           </div>
           <motion.div
@@ -49,7 +49,7 @@ export default function ProductSection() {
               href="/produk"
               className="inline-flex items-center gap-2 px-6 py-3 bg-gray-50 text-lime-700 font-bold rounded-full hover:bg-lime-50 hover:text-lime-800 transition-colors border border-gray-100"
             >
-              Jelajahi Semua Produk <ArrowRight className="w-5 h-5" />
+              Lihat Semua Produk <ArrowRight className="w-5 h-5" />
             </Link>
           </motion.div>
         </div>
